@@ -14,6 +14,7 @@ import {
 
 
 function App() {
+  //starting
   const [mode,setMode]=useState('light');//whether dark mode is enabled or not
   const [textColor,setTextColor]=useState('form-check form-switch text-dark')
   const [alert,setAlert]=useState(null)
